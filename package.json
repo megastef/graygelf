@@ -35,9 +35,6 @@
     "istanbul": "^0.4.5",
     "tape": "^4.8.0"
   },
-  "optionalDependencies": {
-    "microtime": "^2.0.1"
-  },
   "engines": {
     "node": ">= 0.10.0"
   }
