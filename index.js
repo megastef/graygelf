@@ -9,9 +9,7 @@ var split = require('split')
 /**
  * Prefer microtime accuracy but fallback if unable to use
  */
-var timestamp
-try { timestamp = require('microtime').nowDouble }
-catch (e) { timestamp = function() { return Date.now() / 1000.0 } }
+var timestamp = function() { return Date.now() / 1000.0 } }
 
 /**
  * Available logging levels
